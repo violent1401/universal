@@ -1,15 +1,12 @@
 {
-  "name": "universal",
-  "scripts": {
-  },
-  "env": {
-  },
-  "formation": {
-  },
-  "addons": [
-
-  ],
-  "buildpacks": [
-
-  ]
+  "name": "React Tutorial Server",
+  "description": "Code from the React tutorial",
+  "keywords": [ "react", "reactjs", "tutorial" ],
+  "repository": "https://github.com/violent1401/universal.git",
+  "logo": "https://facebook.github.io/react/img/logo.svg",
+  "website": "http://facebook.github.io/react/docs/tutorial.html",
+  "success_url": "/",
+  "env" : {
+    "BUILDPACK_URL": "https://github.com/violent1401/universal.git"
+  }
 }
